@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Enter the total amount the service covers. --></help>
+        <label><!-- Coverage Amount --></label>
+        <name>LLC_BI__Coverage_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the total service deductible. --></help>
+        <label><!-- Deductible --></label>
+        <name>LLC_BI__Deductible__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to determine when the service goes into effect. --></help>
+        <label><!-- Effective Date --></label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to determine when the service is no longer in effect. --></help>
+        <label><!-- Expiration Date --></label>
+        <name>LLC_BI__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the total amount per occurrence. --></help>
+        <label><!-- Occurrence Amount --></label>
+        <name>LLC_BI__Occurrence_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays the policy number associated with the service. --></help>
+        <label><!-- Policy Number --></label>
+        <name>LLC_BI__Policy_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- The lookup for the Service Management record. --></help>
+        <label><!-- Service Mgmt --></label>
+        <name>LLC_BI__Service_Mgmt__c</name>
+        <relationshipLabel><!-- Service Mgmt Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the appropriate status of the service. --></help>
+        <label><!-- Status --></label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ordered/In Progress</masterLabel>
+            <translation><!-- Ordered/In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select a service sub type. --></help>
+        <label><!-- Sub Type --></label>
+        <name>LLC_BI__Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Builder Risk</masterLabel>
+            <translation><!-- Builder Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Interruption</masterLabel>
+            <translation><!-- Business Interruption --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Personal Property</masterLabel>
+            <translation><!-- Business Personal Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collision &amp; Comprehensive</masterLabel>
+            <translation><!-- Collision &amp; Comprehensive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desktop</masterLabel>
+            <translation><!-- Desktop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Earthquake</masterLabel>
+            <translation><!-- Earthquake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation Only</masterLabel>
+            <translation><!-- Evaluation Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flood Building</masterLabel>
+            <translation><!-- Flood Building --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flood Contents</masterLabel>
+            <translation><!-- Flood Contents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hazard</masterLabel>
+            <translation><!-- Hazard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liability</masterLabel>
+            <translation><!-- Liability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life</masterLabel>
+            <translation><!-- Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Peril - Excluding Flood</masterLabel>
+            <translation><!-- Multi Peril - Excluding Flood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Peril - Including Flood</masterLabel>
+            <translation><!-- Multi Peril - Including Flood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Insurance</masterLabel>
+            <translation><!-- Re-Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real and Personal Property</masterLabel>
+            <translation><!-- Real and Personal Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sinkhole</masterLabel>
+            <translation><!-- Sinkhole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terrorism</masterLabel>
+            <translation><!-- Terrorism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title</masterLabel>
+            <translation><!-- Title --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update</masterLabel>
+            <translation><!-- Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windstorm and Hail</masterLabel>
+            <translation><!-- Windstorm and Hail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workers Compensation</masterLabel>
+            <translation><!-- Workers Compensation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select a service type. --></help>
+        <label><!-- Type --></label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Appraiser</masterLabel>
+            <translation><!-- Appraiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation><!-- Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspector</masterLabel>
+            <translation><!-- Inspector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Reports</masterLabel>
+            <translation><!-- Third Party Reports --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Building Size (Sq Ft) --></label>
+        <name>cm_Building_Size_Sq_Ft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Formula pulling in Phone populated on the Contact from the related Service Mgmt record. --></help>
+        <label><!-- Contact Phone --></label>
+        <name>cm_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Property Use / Occupants --></label>
+        <name>cm_Current_Property_Use__c</name>
+    </fields>
+    <fields>
+        <help><!-- Dependent on &quot;Order Type&quot; being set as EPA. Values are RSRA, Phase 1, and Phase 2 --></help>
+        <label><!-- EPA Assessment Type --></label>
+        <name>cm_EPA_Assessment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Phase 1</masterLabel>
+            <translation><!-- Phase 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase 2</masterLabel>
+            <translation><!-- Phase 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RSRA</masterLabel>
+            <translation><!-- RSRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction Screen</masterLabel>
+            <translation><!-- Transaction Screen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EPA Vendor --></label>
+        <name>cm_EPA_Vendor__c</name>
+        <picklistValues>
+            <masterLabel>AEI</masterLabel>
+            <translation><!-- AEI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PES</masterLabel>
+            <translation><!-- PES --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Type --></label>
+        <name>cm_Evaluation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Exterior</masterLabel>
+            <translation><!-- Exterior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interior</masterLabel>
+            <translation><!-- Interior --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Legal Description --></label>
+        <name>cm_Legal_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tracks if a Licensed Appraiser is Allowed for General or Residential purposes. --></help>
+        <label><!-- Licensed Appraiser Allowed --></label>
+        <name>cm_Licensed_Appraiser_Allowed__c</name>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation><!-- Residential --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order Appraisal --></label>
+        <name>cm_Order_Appraisal__c</name>
+        <picklistValues>
+            <masterLabel>Bid Only</masterLabel>
+            <translation><!-- Bid Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>cm_Order_Type__c</name>
+        <picklistValues>
+            <masterLabel>As Built</masterLabel>
+            <translation><!-- As Built --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Constructed</masterLabel>
+            <translation><!-- As Constructed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Is</masterLabel>
+            <translation><!-- As Is --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPA Assessment</masterLabel>
+            <translation><!-- EPA Assessment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Previous Property Use(s) --></label>
+        <name>cm_Previous_Property_Use_s__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is optional and specifies the subject property&apos;s address. It is automatically populated with the Property Address populated on the Collateral Mgmt record associated to the Service Mgmt. --></help>
+        <label><!-- Property Address --></label>
+        <name>cm_Property_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Property County --></label>
+        <name>cm_Property_County__c</name>
+    </fields>
+    <fields>
+        <label><!-- Property Description --></label>
+        <name>cm_Property_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Property Status --></label>
+        <name>cm_Property_Status__c</name>
+        <picklistValues>
+            <masterLabel>Improved</masterLabel>
+            <translation><!-- Improved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Only</masterLabel>
+            <translation><!-- Land Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Construction</masterLabel>
+            <translation><!-- Under Construction --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Property Type --></label>
+        <name>cm_Property_Type__c</name>
+        <picklistValues>
+            <masterLabel>Land and Building</masterLabel>
+            <translation><!-- Land and Building --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raw Land</masterLabel>
+            <translation><!-- Raw Land --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Request Comments --></label>
+        <name>cm_Report_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Due Date --></label>
+        <name>cm_Report_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Ordered --></label>
+        <name>cm_Report_Ordered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Rcvd --></label>
+        <name>cm_Report_Rcvd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Type --></label>
+        <name>cm_Report_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Valuation</masterLabel>
+            <translation><!-- Business Valuation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRE Appraisal</masterLabel>
+            <translation><!-- CRE Appraisal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPA Assessment</masterLabel>
+            <translation><!-- EPA Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Appraisal</masterLabel>
+            <translation><!-- Equipment Appraisal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment Property Appraisal</masterLabel>
+            <translation><!-- Investment Property Appraisal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Property Appraisal</masterLabel>
+            <translation><!-- Residential Property Appraisal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Contained</masterLabel>
+            <translation><!-- Self-Contained --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary</masterLabel>
+            <translation><!-- Summary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Verification</masterLabel>
+            <translation><!-- Tax Verification --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Approaches --></label>
+        <name>cm_Requested_Approaches__c</name>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income</masterLabel>
+            <translation><!-- Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Value</masterLabel>
+            <translation><!-- Market Value --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Property Rights --></label>
+        <name>cm_Requested_Property_Rights__c</name>
+        <picklistValues>
+            <masterLabel>Fee Simple</masterLabel>
+            <translation><!-- Fee Simple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leased Fee</masterLabel>
+            <translation><!-- Leased Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold</masterLabel>
+            <translation><!-- Leasehold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Values --></label>
+        <name>cm_Requested_Values__c</name>
+        <picklistValues>
+            <masterLabel>Market Value As Is</masterLabel>
+            <translation><!-- Market Value As Is --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Value At Completion</masterLabel>
+            <translation><!-- Market Value At Completion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Value At Stabilization</masterLabel>
+            <translation><!-- Market Value At Stabilization --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Site Size --></label>
+        <name>cm_Site_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year Built --></label>
+        <name>cm_Year_Built__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zoning --></label>
+        <name>cm_Zoning__c</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation><!-- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation><!-- Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation><!-- Residential --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- Custom Record Type for the Appraiser Service Mgmt Details. --></description>
+        <label><!-- Appraiser --></label>
+        <name>Appraiser</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type to specify Attorney Service Mgmt Details --></description>
+        <label><!-- Attorney --></label>
+        <name>Attorney</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type to specify Inspector Service Mgmt Details --></description>
+        <label><!-- Inspector --></label>
+        <name>Inspector</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Custom Record Type for the Insurance Service Mgmt Details. --></description>
+        <label><!-- Insurance --></label>
+        <name>Insurance</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type to specify Third Party Report Service Mgmt Details --></description>
+        <label><!-- Third Party Reports --></label>
+        <name>Third_Party_Reports</name>
+    </recordTypes>
+</CustomObjectTranslation>

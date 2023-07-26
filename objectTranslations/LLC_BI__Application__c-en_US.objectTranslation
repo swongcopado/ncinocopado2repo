@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Application Completion Date --></label>
+        <name>LLC_BI__Application_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to save the borrower’s offer sorting preference. --></help>
+        <label><!-- Offer Sorting Preference --></label>
+        <name>LLC_BI__Offer_Sorting_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Lowest Payment</masterLabel>
+            <translation><!-- Lowest Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lowest Rate</masterLabel>
+            <translation><!-- Lowest Rate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field displays the requested amount for the loan when the borrower begins the credit application. --></help>
+        <label><!-- Requested Amount --></label>
+        <name>LLC_BI__Requested_Amount__c</name>
+    </fields>
+</CustomObjectTranslation>

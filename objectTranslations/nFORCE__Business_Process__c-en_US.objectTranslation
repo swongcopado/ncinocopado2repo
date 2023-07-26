@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- This text field contains the business process type. --></help>
+        <label><!-- Category --></label>
+        <name>nFORCE__Category__c</name>
+    </fields>
+    <fields>
+        <help><!-- This text field identifies a business process. --></help>
+        <label><!-- Key --></label>
+        <name>nFORCE__Key__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field contains the External ID for the Business Process. --></help>
+        <label><!-- Lookup Key --></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- The business process name must be unique. Check the name and try again. --></errorMessage>
+        <name>nFORCE__Enforce_Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

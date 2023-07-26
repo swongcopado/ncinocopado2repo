@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- UI Config Builder --></label>
+        <name>nFORCE__UI_Config_Builder</name>
+    </fieldSets>
+    <fields>
+        <help><!-- This is the unique identifier similar to the Salesforce.com API Name. --></help>
+        <label><!-- App --></label>
+        <name>nFORCE__App__c</name>
+    </fields>
+    <fields>
+        <help><!-- The technology which the body content uses. --></help>
+        <label><!-- Body Type --></label>
+        <name>nFORCE__Body_Type__c</name>
+        <picklistValues>
+            <masterLabel>Lightning Aura Component</masterLabel>
+            <translation><!-- Lightning Aura Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Web Component</masterLabel>
+            <translation><!-- Lightning Web Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visualforce Page</masterLabel>
+            <translation><!-- Visualforce Page --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Search for: UserInterfaceUIBodyTypeOverviewwithImages
+nforce__korelatedlist, nforce__kodatagrid, nforce__kogridlist, nforce__korelatedtable, nforce__korelatedlistchild, nforce__kodatagridlookup --></help>
+        <label><!-- Body --></label>
+        <name>nFORCE__Body__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of what this route does and how the system uses this route. --></help>
+        <label><!-- Description --></label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Group --></label>
+        <name>nFORCE__Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- This defines the Icon that will display with each route. --></help>
+        <label><!-- Icon Class --></label>
+        <name>nFORCE__Icon_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Is Hidden --></label>
+        <name>nFORCE__Is_Hidden__c</name>
+    </fields>
+    <fields>
+        <label><!-- Navigation --></label>
+        <name>nFORCE__Navigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Order --></label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- A semicolon-separated set of key=value pairs passed as URL parameters to the content of this route. --></help>
+        <label><!-- Parameters --></label>
+        <name>nFORCE__Parameters__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Parent App --></label>
+        <name>nFORCE__Parent_App__c</name>
+    </fields>
+    <fields>
+        <help><!-- Screens are a collection of  Screen Sections which reference field sets.  LLC_BI Routes commonly reference visualforce pages, thus do not require a screen. --></help>
+        <label><!-- Screen --></label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel><!-- Routes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Navigation --></label>
+        <name>nFORCE__Sub_Navigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxonomy ID --></label>
+        <name>nFORCE__Taxonomy_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Toolbar --></label>
+        <name>nFORCE__Toolbar__c</name>
+    </fields>
+    <fields>
+        <help><!-- The page include for the top bar region of the base UI template. --></help>
+        <label><!-- Topbar --></label>
+        <name>nFORCE__Topbar__c</name>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Deep_Clone_Route --></label>
+        <name>Deep_Clone_Route</name>
+    </webLinks>
+</CustomObjectTranslation>
