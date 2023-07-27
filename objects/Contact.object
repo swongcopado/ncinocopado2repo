@@ -2668,11 +2668,45 @@
         <fullName>Hobbies__c</fullName>
         <externalId>false</externalId>
         <label>Hobbies</label>
-        <length>100</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cycling</fullName>
+                    <default>false</default>
+                    <label>Cycling</label>
+                </value>
+                <value>
+                    <fullName>Running</fullName>
+                    <default>false</default>
+                    <label>Running</label>
+                </value>
+                <value>
+                    <fullName>Reading</fullName>
+                    <default>false</default>
+                    <label>Reading</label>
+                </value>
+                <value>
+                    <fullName>Gaming</fullName>
+                    <default>false</default>
+                    <label>Gaming</label>
+                </value>
+                <value>
+                    <fullName>Shopping</fullName>
+                    <default>false</default>
+                    <label>Shopping</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <label>Others</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
     </fields>
     <fields>
         <fullName>HomePhone</fullName>
@@ -7582,6 +7616,33 @@
         <description>Select &quot;Business Contact&quot; if you&apos;re adding a contact that applies to a Business relationship.</description>
         <label>Business Contact</label>
         <picklistValues>
+            <picklist>Hobbies__c</picklist>
+            <values>
+                <fullName>Cycling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gaming</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reading</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Running</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shopping</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Is_existing_customer__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -8168,6 +8229,33 @@
         <compactLayoutAssignment>Contact_Layout</compactLayoutAssignment>
         <description>Select &quot;Individual Contact&quot; if you&apos;re adding a contact that applies to an Individual relationship.</description>
         <label>Individual Contact</label>
+        <picklistValues>
+            <picklist>Hobbies__c</picklist>
+            <values>
+                <fullName>Cycling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gaming</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reading</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Running</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shopping</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Is_existing_customer__c</picklist>
             <values>
