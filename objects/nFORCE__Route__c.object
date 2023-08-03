@@ -164,19 +164,14 @@
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </availableFields>
-        <availableFields>
-            <field>nFORCE__Parameters__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>nFORCE__Screen__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
         <description>Used for route management by the UI Config Builder tool.</description>
         <displayedFields>
             <field>nFORCE__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nFORCE__Screen__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
@@ -209,6 +204,11 @@
             <field>nFORCE__Sub_Navigation__c</field>
             <isFieldManaged>true</isFieldManaged>
             <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>nFORCE__Parameters__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
         </displayedFields>
         <label>UI Config Builder</label>
     </fieldSets>
